@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+#calu{
+    background-color: rgb(14, 26, 22);
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.cl{
+    /* height: 100vh;
+    width: 50%; */
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px;
+    /* margin: 5px; */
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h2{
+    background-color: rgb(14, 26, 22);;
+    color: white;
+    padding: 15px;
+}
+
+/* button:hover{
+    transform:perspective(12);
+} */
